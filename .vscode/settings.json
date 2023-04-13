@@ -1,9 +1,13 @@
 //vscode settings.json configuration with auto onSave and prettier
 {
     "editor.formatOnSave": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
+    "css.lint.unknownAtRules": "ignore",
     "eslint.validate": [
         "javascript",
         "javascriptreact",
