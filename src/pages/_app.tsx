@@ -2,6 +2,5 @@
 import type { AppProps } from 'next/app';
 
 export default function App({ Component, pageProps }: AppProps) {
-  const device = 3;
   return <Component {...pageProps} />;
 }

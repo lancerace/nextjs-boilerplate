@@ -1,7 +1,5 @@
-const Container = () => {
-  return (
-    <div className='container'>
-      <h1>Container</h1>
-    </div>
-  );
-};
+import React from 'react';
+
+export default function Container({ children }: any) {
+  return <div className='container'>{children}</div>;
+}
